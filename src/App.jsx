@@ -1,15 +1,14 @@
-// import { useState } from 'react'
-// import reactLogo from './assets/react.svg'
-// import viteLogo from '/vite.svg'
-// import './App.css'
+import React from 'react';
 
 function App() {
-  // const [count, setCount] = useState(0)
-
   return (
-    <>
-      <p className="read-the-docs">Hello World</p>
-    </>
+    <div className="flex justify-center items-center h-dvh">
+      <div className="text-3xl  hover:bg-gradient-to-r from-blue-600 via-green-500 to-indigo-400 hover:text-transparent bg-clip-text flex flex-col">
+        Welcome to Tweder! One Stop destination for all your trading information
+        <br />
+        <span className="text-center">Under Construction!</span>
+      </div>
+    </div>
   );
 }
 
